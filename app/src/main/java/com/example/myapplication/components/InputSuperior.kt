@@ -26,7 +26,6 @@ fun InputSuperior(
             }
         },
         label = { Text("Ingrese su presupuesto") },
-        placeholder = { Text("1000") },
         // Configuración para que el teclado sea numérico
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
         modifier = Modifier
